@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verdict Friday — Real Black Friday Deals, Checked 27 Nov 2026</title>
+<meta name="description" content="39 real Black Friday and Cyber Monday deals from Amazon, Best Buy, Walmart, Target and Newegg, each price-checked on 27 Nov 2026 with an honest verdict: strong, good or weak.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="./">Verdict<span> Friday</span></a>
+    <p class="topbar-tag">Black Friday + Cyber Monday 2026</p>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker">Every price read on 27 Nov 2026 — no made-up deals</p>
+      <h1>Black Friday deals, checked for real.</h1>
+
+      <dl class="stats" aria-label="Deal summary">
+        <div><dt>Deals checked</dt><dd id="stat-deals">39</dd></div>
+        <div><dt>Stores</dt><dd>5</dd></div>
+        <div><dt>Strong ≥40% off</dt><dd id="stat-strong">18</dd></div>
+        <div><dt>Total savings</dt><dd id="stat-savings">$6,389</dd></div>
+      </dl>
+
+      <div class="finder" role="search">
+        <label class="search">
+          <span class="visually-hidden">Search deals</span>
+          <input id="q" type="search" placeholder="Search deals — try “airpods”" autocomplete="off">
+        </label>
+
+        <div class="filters">
+          <div class="filter-group" id="cat-filters" aria-label="Filter by category"></div>
+          <div class="filter-group" id="store-filters" aria-label="Filter by store"></div>
+          <div class="filter-group" id="off-filters" aria-label="Filter by discount"></div>
+          <label class="sort">
+            <span>Sort</span>
+            <select id="sort">
+              <option value="pct-desc">Biggest discount %</option>
+              <option value="save-desc">Biggest saving $</option>
+              <option value="price-asc">Lowest price</option>
+              <option value="price-desc">Highest price</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="results wrap" aria-live="polite">
+    <p class="count" id="count"></p>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>No deals match that search. Try a different word, or clear a filter.</p>
+  </section>
+
+  <section class="method wrap">
+    <h2>How the verdict works</h2>
+    <ul class="verdicts">
+      <li><span class="pill strong">Strong deal</span> 40% off or more — a real cut, worth acting on.</li>
+      <li><span class="pill good">Good deal</span> 20–39% off — a solid saving, check the usual price first.</li>
+      <li><span class="pill weak">Weak deal</span> Under 20% off — a small cut; buy it for the product, not the discount.</li>
+    </ul>
+    <p class="method-note">Prices were read on <strong>27 November 2026</strong> from each store’s own product page, or from a deals source that names the store — the source is printed on every card. Prices move during Black Friday: always confirm the price at checkout before you buy.</p>
+    <details class="sources">
+      <summary>Where every price was read</summary>
+      <ul>
+        <li><strong>Best Buy product pages</strong> — 13 deals, read directly from bestbuy.com on 27 Nov 2026.</li>
+        <li><strong>The Verge Black Friday deals roundups</strong> — Apple deals and the main deals guide, November 2026.</li>
+        <li><strong>Black Friday Deals Diary 2026</strong> — updated 27 Nov 2026; Apple prices for Black Friday day itself.</li>
+        <li><strong>Mashable Black Friday deals</strong> — November 2026 roundup.</li>
+        <li><strong>MacRumors Black Friday deals</strong> — updated 27 Nov 2026; Apple and Beats prices for Black Friday day itself.</li>
+        <li><strong>AppleInsider Black Friday deals</strong> — updated 26 Nov 2026.</li>
+        <li><strong>Walmart.com listings</strong> — Shark HydroVac, Gourmia fryer and LEGO Koenigsegg, read 27 Nov 2026; Nex Playground, AirPods 4 and Powerbeats Pro 2 via The Verge and deal roundups.</li>
+        <li><strong>dealnews</strong> — Walmart Black Friday LEGO roundup, verified 27 Nov 2026.</li>
+        <li><strong>Target.com product pages</strong> — 4 deals, read directly from target.com on 27 Nov 2026.</li>
+        <li><strong>Newegg Black Friday sale</strong> — 3 deals, from Newegg's own Black Friday announcement (19–28 Nov 2026) and newegg.com product pages, read 27 Nov 2026.</li>
+      </ul>
+    </details>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>Verdict Friday — an independent deal finder. Not affiliated with Amazon, Best Buy, Walmart, Target or Newegg. Store names are used only to say where each deal was found.</p>
+    <p>Built for make.fun’s “Build the best real Black Friday deal finder” bounty. All prices in USD, checked 27 Nov 2026.</p>
+  </div>
+</footer>
+
+<noscript><p class="noscript">This deal finder needs JavaScript to search and filter. The deals are listed in deals.js.</p></noscript>
+<script src="deals.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
